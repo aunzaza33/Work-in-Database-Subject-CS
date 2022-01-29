@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0px;
+    background-color:#ccc;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav ul{
+    list-style: none;
+    background-color:#444;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  .nav li{
+    font-size: 1.2em;
+    line-height: 50px;
+    text-align: left;
+  }
+  .nav a {
+    display: block;
+    color: #fff;
+    padding-left: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+    transition: .3s;
+  }
+  .nav a:hover {
+    background-color: pink;
+    color:rgb(0, 0, 0);
+  }
+
+  .nav li li{
+    font-size: .8em;
+  }
+  @media screen and (min-width: 650px){
+    .nav li{
+      width: 300px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1em;
+      display: inline-block;
+      margin-right:-4px ;
+    }
+    .nav a{
+      border-bottom: none;
+    }
+    .nav ul > li{
+      text-align: center;
+    }
+    .nav ul > li >a{
+      padding-left: 0px ;
+    }
+    .nav li ul {
+      position: absolute;
+      display: none;
+      width: inherit;
+    }
+    .nav li:hover ul{
+      display: block;
+    }
+    .nav li ul li{
+      display: block;
+    }
+  }
+
+  .nav {
+    background-color: black;
+    top: 0px;
+    display: block;
+    transition: top 0.3s;
+  }
+
+ 
+  .nav li form{
+    display:inline-block;
+    
+    margin-top: 0px;
+  }
+  
+  
+  
+  .head ul{
+    list-style: none;
+    background-color:rgb(255, 255, 255);
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  .head  li{
+    font-size: 1.2em;
+    line-height: 50px;
+    text-align: left;
+  }
+  .head  a {
+    display: block;
+    color: #000;
+    padding-left: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+    transition: .3s;
+  }
+  .head  a:hover {
+    background-color: pink;
+    color:rgb(0, 0, 0);
+  }
+
+  .head  li li{
+    font-size: .8em;
+  }
+  @media screen and (min-width: 650px){
+    .head  li{
+      width: 500px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1em;
+      display: inline-block;
+      margin-right:-4px ;
+    }
+    .head  a{
+      border-bottom: none;
+    }
+    .head  ul > li{
+      text-align: center;
+    }
+    .head ul > li >a{
+      padding-left: 0px ;
+    }
+    .head li ul {
+      position: absolute;
+      display: none;
+      width: inherit;
+    }
+    .head li:hover ul{
+      display: block;
+    }
+    .head li ul li{
+      display: block;
+    }
+  }
+  .head li img{
+    display: inline-flex;
+    
+  }
+  .head {
+    background-color: white;
+    color: #000;
+    top: 0px;
+    display: block;
+    transition: top 0.3s;
+  }
+
+ 
+  .head li form{
+    display:inline-block;
+    
+    margin-top: 0px;
+    
+  
+  }
+  .a-side {
+    
+    text-align: left;
+    padding: 0px;
+    margin-top:0px;
+    margin-left: 10px;
+    display:inline-block;
+  }
+  .a-side ul{
+    list-style: none;
+    
+  }
+
+  .a-side li{
+    background-color: rgb(58, 53, 53);
+    border: solid 1px rgb(0, 0, 0);
+    padding:5px;
+    padding-right:15px;
+    padding-left:15px;
+    font-size: 15px;
+    color:white;
+  }
+  .a-side a {
+    display:block;
+    color: rgb(255, 255, 255);
+    padding-left: 15หpx;
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+    transition: .3s;
+    
+  }
+  .a-side a:hover {
+    background-color: pink;
+    color:rgb(0, 0, 0);
+  }
